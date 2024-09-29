@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mynotes",
+  "info": {
+    "singularName": "mynote",
+    "pluralName": "mynotes",
+    "displayName": "MyNote",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "sortBy": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "weight": {
+      "type": "integer"
+    },
+    "public_status": {
+      "type": "integer"
+    },
+    "tag": {
+      "type": "string"
+    }
+  }
+}
